@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HBpro_duct - روابطي</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px 25px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 8px 32px 0 rgba(255, 75, 43, 0.3);
+      text-align: center;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    }
+    .links a {
+      display: block;
+      background: #fff;
+      color: #ff4b2b;
+      font-weight: 600;
+      padding: 15px 0;
+      margin: 12px 0;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 15px rgba(255, 75, 43, 0.4);
+      transition: background 0.3s, color 0.3s, transform 0.2s;
+    }
+    .links a:hover {
+      background: #ff4b2b;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(255, 65, 40, 0.7);
+    }
+    .phone {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+    }
+    @media (max-width: 450px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+      .links a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HBpro_duct</h1>
+    <div class="links">
+      <a href="https://wa.me/21699013847" target="_blank">💬 واتساب</a>
+      <a href="https://www.instagram.com/hbpro.ject?igsh=MXB0eDQxMHczbXRoOA==" target="_blank">📷 إنستغرام</a>
+    </div>
+    <div class="phone">📞 +216 99 013 847</div>
+  </div>
+</body>
+</html>
